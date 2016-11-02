@@ -1,10 +1,17 @@
-body {
+body.home {
   background-image: url("images/rumi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-a {
+h1 {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 68px;
+}
+
+a.nav {
   border-style: solid;
   border-width:1px; 
   text-decoration: none;
@@ -14,4 +21,8 @@ a {
 li {
   display: inline;
   margin-right: 10px;
+}
+
+br {
+  line-height: 50px;
 }
