@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Newsletter</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a class="nav" href="index.html">Home</a></li>
+        <li><a class="nav" href="about.html">About</a></li>
+        <li><a class="nav" href="newsletter.html">Newsletter</a></li>
+        <li><a class="nav" href="http://mattcjeller.com" target="_blank">Mattcjeller.com</a></li>
+      </ul>
+    </header>
+    <!-- Header end -->
+    <main>
+      <p>If you'd like to receive the occasional email update from me, please sign up for my newsletter!</p>
+      <form action="register" method="get">
+        <fieldset>
+          <legend>Your Details:</legend>
+          <label>Name: <input type="text" name="name"></label><br />
+          <label>Email: <input type="email" name="email"></label><br />
+        </fieldset><br />
+        <fieldset>
+          <legend>Quick question..:</legend>
+          <p>
+            <label for="hear-about">How did you hear about me?</label>
+            <select name="registered" id="hear-about">
+              <option value="google">Google</option>
+              <option value="friend">Friend</option>
+              <option value="GitHub">GitHub</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+          <p>
+            Would you visit again?<br />
+            <label><input type="radio" name="rating" value="yes" /> Yes</label>
+            <label><input type="radio" name="rating" value="no" /> No</label>
+            <label><input type="radio" name="rating" value="maybe" /> Maybe</label>
+          </p>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

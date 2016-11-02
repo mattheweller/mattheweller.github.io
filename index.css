@@ -1,4 +1,8 @@
-body.home {
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.home {
   background-image: url("images/rumi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -6,12 +10,12 @@ body.home {
 
 h1 {
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: inherit;
   font-weight: bold;
   font-size: 68px;
 }
 
-a.nav {
+.nav {
   border-style: solid;
   border-width:1px; 
   text-decoration: none;
@@ -21,8 +25,4 @@ a.nav {
 li {
   display: inline;
   margin-right: 10px;
-}
-
-br {
-  line-height: 50px;
 }
