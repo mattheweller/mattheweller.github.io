@@ -3,17 +3,19 @@
     <title>Newsletter</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
+  <body class="newsletter">
     <header>
-      <ul>
-        <li><a class="nav" href="index.html">Home</a></li>
-        <li><a class="nav" href="about.html">About</a></li>
-        <li><a class="nav" href="newsletter.html">Newsletter</a></li>
-        <li><a class="nav" href="http://mattcjeller.com" target="_blank">Mattcjeller.com</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li id="current"><a href="newsletter.html">Newsletter</a></li>
+          <li id="to_blog"><a href="http://mattcjeller.com" target="_blank">Mattcjeller.com</a></li>
+        </ul>
+    </nav>
     </header>
     <!-- Header end -->
-    <main>
+    <main id="page-wrap">
       <p>If you'd like to receive the occasional email update from me, please sign up for my newsletter!</p>
       <form action="register" method="get">
         <fieldset>
@@ -41,5 +43,9 @@
         </fieldset>
       </form>
     </main>
+    <footer>
+      <small>&copy; Matthew Eller and mattheweller.github.io, 2016. Unauthorized use and/or duplication of this material without express and written permission from this site’s author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Matthew Eller and mattheweller.github.io with appropriate and specific direction to the original content.
+      </small>
+    </footer>
   </body>
 </html>
